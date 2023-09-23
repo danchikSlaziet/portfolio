@@ -590,6 +590,10 @@ ul li {
   border-radius: 20px;
 }
 
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
 @media screen and (max-width: 1000px) {
   .project {
     flex-direction: column;
