@@ -8,13 +8,13 @@ export default function About() {
       <div className="width-container">
         <div className="about-content">
           <div className="about-content__images">
-            <img className="about-content__image-1" src={image1Path} alt="" />
-            <img className="about-content__image-2" src={image2Path} alt="" />
-            <span>
+            <img data-aos="fade-right" className="about-content__image-1" src={image1Path} alt="" />
+            <img data-aos="fade-up" className="about-content__image-2" src={image2Path} alt="" />
+            <span data-aos="fade-up" >
               <img className='about-content__rotate-img' src={rotatePath} alt="" />
             </span>
           </div>
-          <div className='about-content__text'>
+          <div data-aos="fade-left" className='about-content__text'>
             <h3>Обо мне</h3>
             <h4>
               A dedicated Front-end Developer

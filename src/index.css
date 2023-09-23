@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+#root {
+  overflow: hidden;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -574,6 +578,16 @@ ul li {
   gap: 50px;
   justify-content: space-between;
   background-color: #fff;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8e8e8e;
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -591,6 +605,7 @@ ul li {
   max-height: 360px;
   border-radius: 17px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
+  width: 100%;
 }
 
 .project__img-block img {
@@ -608,6 +623,13 @@ ul li {
   flex-direction: column;
   gap: 15px;
   justify-content: space-between;
+  width: 60%;
+}
+
+@media screen and (max-width: 1000px) {
+  .project__text {
+    width: 100%;
+  }
 }
 
 .project__text h3 {
@@ -642,6 +664,7 @@ ul li {
   display: flex;
   gap: 5px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 1000px) {

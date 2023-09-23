@@ -4,7 +4,7 @@ export default function Header({setBurgerIsOpen, navLinksArray}) {
   }
 
   return (
-    <header className="header">
+    <header data-aos="fade-down"  className="header">
       <nav className="nav header__nav">
         <h3 className="logo header__logo"><a href="#top" className="logo__link">Danis.dev</a></h3>
         <ul className="nav__list">
