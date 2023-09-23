@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-mesto-auth/static/css/main.131d8f60.css",
+    "main.js": "/react-mesto-auth/static/js/main.61d525eb.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-mesto-auth/static/js/787.1ed0c42c.chunk.js",
+    "static/media/example.webp": "/react-mesto-auth/static/media/example.c58b37da333d73238fdd.webp",
+    "static/media/Inter-Medium.woff": "/react-mesto-auth/static/media/Inter-Medium.44e343ff76a98508d309.woff",
+    "static/media/Inter-Black.woff": "/react-mesto-auth/static/media/Inter-Black.87c06fd2ac7128c9a81d.woff",
+    "static/media/Inter-Regular.woff": "/react-mesto-auth/static/media/Inter-Regular.0d6f7c99e635f1fec4c9.woff",
+    "static/media/Inter-Medium.woff2": "/react-mesto-auth/static/media/Inter-Medium.01f03178adde434fc9fa.woff2",
+    "static/media/Inter-Black.woff2": "/react-mesto-auth/static/media/Inter-Black.ed17840f58cc8c61635a.woff2",
+    "static/media/Inter-Regular.woff2": "/react-mesto-auth/static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
+    "static/media/aboutimg.webp": "/react-mesto-auth/static/media/aboutimg.62b47e7f183d4b4e9feb.webp",
+    "static/media/avatar.webp": "/react-mesto-auth/static/media/avatar.f334283842f7b24cafd1.webp",
+    "static/media/smile.png": "/react-mesto-auth/static/media/smile.1bae5fcfb51082b5c2b4.png",
+    "static/media/aboutlaptop.png": "/react-mesto-auth/static/media/aboutlaptop.c5325f52b5be329995a5.png",
+    "static/media/rotateText.svg": "/react-mesto-auth/static/media/rotateText.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg",
+    "index.html": "/react-mesto-auth/index.html",
+    "main.131d8f60.css.map": "/react-mesto-auth/static/css/main.131d8f60.css.map",
+    "main.61d525eb.js.map": "/react-mesto-auth/static/js/main.61d525eb.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-mesto-auth/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.131d8f60.css",
+    "static/js/main.61d525eb.js"
+  ]
+}
