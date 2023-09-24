@@ -8,7 +8,11 @@ import Home from "./Home";
 import Projects from "./Projects";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import examplePath from '../images/example.webp';
+import mestoPath from '../images/mesto-full.webp';
+import moviesPath from '../images/movies-full.webp';
+import asteriPath from '../images/asteri-3d.ru_ (1).webp';
+import mottexPath from '../images/accouno4.beget.tech_-min.webp';
+import russianPath from '../images/danchikslaziet.github.io_russian-travel-new_ (1).webp';
 
 
 function App() {
@@ -33,25 +37,39 @@ function App() {
   ]
   const projectsArray = [
     {
-      imagePath: examplePath,
-      heading: 'сайт о чём-то',
-      text: 'A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.',
-      technologies: ['React', 'CSS'],
-      links: ['https://github.com/danchikSlaziet/portfolio', 'https://danchikslaziet.github.io/portfolio/']
+      imagePath: mestoPath,
+      heading: 'Mesto social',
+      text: 'Социальная сеть с авторизацией, базой данных юзеров и карточек. Полностью написан фронтенд и бэкенд (со сборами логов) с последующим деплоем (уже закончился бесплатный период на Yandex Cloud) на Ubuntu 20.04. *ссылка на демо только на фронт с публичной апишкой, ссылка на гит со своим бэкендом',
+      technologies: ['React', 'NodeJS', 'MongoDB', 'ExpressJS', 'Webpack'],
+      links: ['https://github.com/danchikSlaziet/react-mesto-api-full-gha', 'https://danchikslaziet.github.io/react-mesto-auth/']
     },
     {
-      imagePath: examplePath,
-      heading: 'сайт пример',
-      text: 'lorem ipsum blablabla ',
-      technologies: ['React', 'CSS', 'Express'],
-      links: ['https://github.com/danchikSlaziet/portfolio', 'https://danchikslaziet.github.io/portfolio/']
+      imagePath: moviesPath,
+      heading: 'Movies explorer',
+      text: 'Приложение по поиску и фильтрации фильмов с личным кабинетом, авторизацией и списком сохранённых фильмов. Полностью написан фронтенд и бэкенд. Только одна публичная API со списком фильмов.',
+      technologies: ['React', 'NodeJS', 'MongoDB', 'ExpressJS', 'Webpack'],
+      links: ['https://github.com/danchikSlaziet/movies-explorer-app']
     },
     {
-      imagePath: examplePath,
-      heading: 'сайт о чём-то',
-      text: 'A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.',
-      technologies: ['React', 'CSS', 'Ngnix', 'NodeJS'],
-      links: ['https://github.com/danchikSlaziet/portfolio', 'https://danchikslaziet.github.io/portfolio/']
+      imagePath: asteriPath,
+      heading: 'Asteri-3D',
+      text: 'Сайт для компании, занимающейся профессиональной 3д-печатью, поставленной на поток.',
+      technologies: ['jQuery', 'Vanilla JS'],
+      links: ['https://asteri-3d.ru/services/3d-%d0%bc%d0%be%d0%b4%d0%b5%d0%bb%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5/']
+    },
+    {
+      imagePath: mottexPath,
+      heading: 'Mottex Digital',
+      text: 'Сайт для IT-компании по разработке и продвижению цифровых продуктов (постер видео под заголовком - заглушка)',
+      technologies: ['Vanilla JS', 'jQuery', 'Webpack'],
+      links: ['http://accouno4.beget.tech/']
+    },
+    {
+      imagePath: russianPath,
+      heading: 'Russian Travel',
+      text: 'Сайт о путешествиях по России. Простенькая вёрстка с возможностью переключения языка',
+      technologies: ['HTML', 'CSS'],
+      links: ['https://github.com/danchikSlaziet/russian-travel-new','https://danchikslaziet.github.io/russian-travel-new/']
     },
   ]
 
@@ -77,7 +95,6 @@ function App() {
       mirror: false, // whether elements should animate out while scrolling past them
       anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
     });
-    AOS.refresh();
   }, [])
 
   return (

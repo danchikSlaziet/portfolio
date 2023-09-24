@@ -304,8 +304,8 @@ html {
 }
 
 .home__avatar {
-  background-image: url(./images/avatar.webp);
-  background-position: 50%;
+  background-image: url(./images/avatar.jpg);
+  background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   border: 3px solid #2d2e32;
@@ -395,7 +395,7 @@ ul li {
   gap: 30px;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 700px) {
   .logos ul {
     flex-wrap: wrap;
     justify-content: center;
@@ -615,11 +615,11 @@ ul li {
 .project__img-block img {
   width: 100%;
   transform: translateY(0);
-  transition: transform 5s linear;
+  transition: transform 7s linear;
 }
 
 .project__img-block:hover img {
-  transform: translateY(-83%);
+  transform: translateY(-90%);
 }
 
 .project__text {
@@ -641,7 +641,7 @@ ul li {
   color: #2d2e32;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 45px;
+  padding-top: 15px;
 }
 
 @media screen and (max-width: 1000px) {

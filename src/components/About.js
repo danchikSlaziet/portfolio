@@ -17,16 +17,15 @@ export default function About() {
           <div data-aos="fade-left" className='about-content__text'>
             <h3>Обо мне</h3>
             <h4>
-              A dedicated Front-end Developer
-              based in Belgrade, Serbia
+              Веб-разработчик из Москвы/Челябинска
             </h4>
-            <p>As a Junior Front-End Developer, I possess an impressive arsenal of skills 
-              in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in designing and 
-              maintaining responsive websites that offer a smooth user experience. My expertise 
-              lies in crafting dynamic, engaging interfaces through writing clean and optimized 
-              code and utilizing cutting-edge development tools and techniques. I am also a team 
-              player who thrives in collaborating with cross-functional teams to produce outstanding 
-              web applications.</p>
+            <p>
+              Обладаю навыками HTML, CSS, JavaScript, React, NodeJS, ExpressJS, MongoDB, Postman, настройка pm2, Ngnix, SSL-сертификата на certbot при деплое (на Ubuntu). 
+              Мой опыт заключается в создании динамичных, привлекательных интерфейсов 
+              посредством написания чистого и оптимизированного кода и использования 
+              передовых инструментов и методов разработки. Имею опыт работы в команде разработчиков, работал в тесном сотрудничестве с SEO и backend-разработчиком (PHP + WordPress).
+              Также писал собственный бэкенд на Express.js. 
+            </p>
           </div>
         </div>
       </div>
