@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.91b6906e.css",
-    "main.js": "/portfolio/static/js/main.c5b4067a.js",
+    "main.css": "/portfolio/static/css/main.4681a05a.css",
+    "main.js": "/portfolio/static/js/main.705e65d6.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/example.webp": "/portfolio/static/media/example.c58b37da333d73238fdd.webp",
+    "static/media/movies-full.webp": "/portfolio/static/media/movies-full.4f17d53a8129b0f54222.webp",
+    "static/media/danchikslaziet.github.io_russian-travel-new_ (1).webp": "/portfolio/static/media/danchikslaziet.github.io_russian-travel-new_ (1).b4e704166cf81fe7befe.webp",
+    "static/media/accouno4.beget.tech_-min.webp": "/portfolio/static/media/accouno4.beget.tech_-min.649e8ce34399588e3e81.webp",
+    "static/media/asteri-3d.ru_ (1).webp": "/portfolio/static/media/asteri-3d.ru_ (1).978966f80b59f98d5538.webp",
+    "static/media/mesto-full.webp": "/portfolio/static/media/mesto-full.6a81de5d88d8ecaf6341.webp",
     "static/media/Inter-Medium.woff": "/portfolio/static/media/Inter-Medium.44e343ff76a98508d309.woff",
     "static/media/Inter-Black.woff": "/portfolio/static/media/Inter-Black.87c06fd2ac7128c9a81d.woff",
     "static/media/Inter-Regular.woff": "/portfolio/static/media/Inter-Regular.0d6f7c99e635f1fec4c9.woff",
@@ -11,17 +15,17 @@
     "static/media/Inter-Black.woff2": "/portfolio/static/media/Inter-Black.ed17840f58cc8c61635a.woff2",
     "static/media/Inter-Regular.woff2": "/portfolio/static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
     "static/media/aboutimg.webp": "/portfolio/static/media/aboutimg.62b47e7f183d4b4e9feb.webp",
-    "static/media/avatar.webp": "/portfolio/static/media/avatar.f334283842f7b24cafd1.webp",
+    "static/media/avatar.jpg": "/portfolio/static/media/avatar.cf3cd00ac26e9396e23d.jpg",
     "static/media/smile.png": "/portfolio/static/media/smile.1bae5fcfb51082b5c2b4.png",
     "static/media/aboutlaptop.png": "/portfolio/static/media/aboutlaptop.c5325f52b5be329995a5.png",
     "static/media/rotateText.svg": "/portfolio/static/media/rotateText.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg",
     "index.html": "/portfolio/index.html",
-    "main.91b6906e.css.map": "/portfolio/static/css/main.91b6906e.css.map",
-    "main.c5b4067a.js.map": "/portfolio/static/js/main.c5b4067a.js.map",
+    "main.4681a05a.css.map": "/portfolio/static/css/main.4681a05a.css.map",
+    "main.705e65d6.js.map": "/portfolio/static/js/main.705e65d6.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91b6906e.css",
-    "static/js/main.c5b4067a.js"
+    "static/css/main.4681a05a.css",
+    "static/js/main.705e65d6.js"
   ]
 }
