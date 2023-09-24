@@ -8,7 +8,7 @@ export default function Projects({projectsArray}) {
           {projectsArray.map((elem) => {
             return(
               <div key={Math.random()} data-aos="fade-up" className="project">
-                <div className='project__img-block'>
+                <div data-aos="fade-right" className='project__img-block'>
                   <a rel="noreferrer" target="_blank" href={elem.links[1] || elem.links[0]}>
                     <img src={elem.imagePath} alt="" />
                   </a>
