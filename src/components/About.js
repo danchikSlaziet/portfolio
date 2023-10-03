@@ -20,7 +20,7 @@ export default function About() {
               Веб-разработчик из Москвы/Челябинска
             </h4>
             <p>
-              Обладаю навыками HTML, CSS, JavaScript, React, NodeJS, ExpressJS, MongoDB, Postman, настройка pm2, Ngnix, SSL-сертификата на certbot при деплое (на Ubuntu). 
+              Обладаю навыками HTML, CSS/Sass, JS, TS, React, Redux, NodeJS, ExpressJS, MongoDB, Postman, также осуществлял настройку pm2, Ngnix, SSL-сертификата на certbot при деплое (на Ubuntu). 
               Мой опыт заключается в создании динамичных, привлекательных интерфейсов 
               посредством написания чистого и оптимизированного кода и использования 
               передовых инструментов и методов разработки. Имею опыт работы в команде разработчиков, работал в тесном сотрудничестве с SEO и backend-разработчиком (PHP + WordPress).
