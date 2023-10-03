@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ebd1701c.css",
-    "main.js": "/portfolio/static/js/main.b9429edb.js",
+    "main.js": "/portfolio/static/js/main.409e66fc.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/movies-full.webp": "/portfolio/static/media/movies-full.4f17d53a8129b0f54222.webp",
     "static/media/danchikslaziet.github.io_russian-travel-new_ (1).webp": "/portfolio/static/media/danchikslaziet.github.io_russian-travel-new_ (1).b4e704166cf81fe7befe.webp",
@@ -22,11 +22,11 @@
     "static/media/rotateText.svg": "/portfolio/static/media/rotateText.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg",
     "index.html": "/portfolio/index.html",
     "main.ebd1701c.css.map": "/portfolio/static/css/main.ebd1701c.css.map",
-    "main.b9429edb.js.map": "/portfolio/static/js/main.b9429edb.js.map",
+    "main.409e66fc.js.map": "/portfolio/static/js/main.409e66fc.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ebd1701c.css",
-    "static/js/main.b9429edb.js"
+    "static/js/main.409e66fc.js"
   ]
 }
