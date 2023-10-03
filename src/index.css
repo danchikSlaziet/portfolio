@@ -304,8 +304,8 @@ html {
 }
 
 .home__avatar {
-  background-image: url(./images/avatar.jpg);
-  background-position: top center;
+  background-image: url(./images/cv-photo.jpg);
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   border: 3px solid #2d2e32;
@@ -395,7 +395,7 @@ ul li {
   gap: 30px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 820px) {
   .logos ul {
     flex-wrap: wrap;
     justify-content: center;
@@ -554,7 +554,7 @@ ul li {
 }
 
 .projects__container {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -713,7 +713,7 @@ ul li {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
-  width: 70%;
+  width: 100%;
   margin: 0 auto 20px auto;
 }
 
@@ -736,7 +736,7 @@ ul li {
 }
 
 .projects__subheading {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
   color: #2d2e32;
   font-size: 25px;

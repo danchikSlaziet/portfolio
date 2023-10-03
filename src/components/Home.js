@@ -26,16 +26,19 @@ export default function Home() {
               <div className='logos'>
                 <ul>
                   <li>
-                    <img className='logos__img' src='https://skillicons.dev/icons?i=html,css' alt="" />
+                    <img className='logos__img' src='https://skillicons.dev/icons?i=html,css,sass' alt="" />
                   </li>
                   <li>
-                    <img className='logos__img' src='https://skillicons.dev/icons?i=js,react,webpack' alt="" />
+                    <img className='logos__img' src='https://skillicons.dev/icons?i=js,ts' alt="" />
+                  </li>
+                  <li>
+                    <img className='logos__img' src='https://skillicons.dev/icons?i=react,redux,webpack' alt="" />
                   </li>
                   <li>
                     <img className='logos__img' src='https://skillicons.dev/icons?i=nodejs,expressjs' alt="" />
                   </li>
                   <li>
-                  <img className='logos__img' src='https://skillicons.dev/icons?i=mongo,nginx,postman' alt="" />
+                  <img className='logos__img' src='https://skillicons.dev/icons?i=mongo,postman' alt="" />
                   </li>
                 </ul>
               </div>

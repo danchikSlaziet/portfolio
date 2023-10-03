@@ -11,8 +11,9 @@ import "aos/dist/aos.css";
 import mestoPath from '../images/mesto-full.webp';
 import moviesPath from '../images/movies-full.webp';
 import asteriPath from '../images/asteri-3d.ru_ (1).webp';
-import mottexPath from '../images/accouno4.beget.tech_-min.webp';
+import mottexPath from '../images/mottex.webp';
 import russianPath from '../images/danchikslaziet.github.io_russian-travel-new_ (1).webp';
+import coinPath from '../images/coin-app.webp';
 
 
 function App() {
@@ -39,30 +40,37 @@ function App() {
     {
       imagePath: mestoPath,
       heading: 'Mesto social',
-      text: 'Социальная сеть с авторизацией, базой данных юзеров и карточек. Полностью написан фронтенд и бэкенд (со сборами логов) с последующим деплоем (уже закончился бесплатный период на Yandex Cloud) на Ubuntu 20.04. *ссылка на демо только на фронт с публичной апишкой, ссылка на гит со своим бэкендом',
+      text: 'Небольшая социальная сеть. В проекте реализована стандартная авторизация с хранением jwt в куках, защитил основной роут для неавторизованных пользователей, прокидывал информацию о юзере через контекст, также написал базовый бэкенд на Express.js со схемами и моделями mongoose и подключением к mongoDB. Делал деплой на Ubuntu (pm2, certbot, ngnix) *закончился пробный период на YandexCloud, поэтому ссылка на демо - фронт с чужим апи, ссылка на гит - со своим',
       technologies: ['React', 'NodeJS', 'MongoDB', 'ExpressJS', 'Webpack'],
       links: ['https://github.com/danchikSlaziet/react-mesto-api-full-gha', 'https://danchikslaziet.github.io/react-mesto-auth/']
     },
     {
       imagePath: moviesPath,
       heading: 'Movies explorer',
-      text: 'Приложение по поиску и фильтрации фильмов с личным кабинетом, авторизацией и списком сохранённых фильмов. Полностью написан фронтенд и бэкенд. Только одна публичная API со списком фильмов.',
+      text: 'Приложение по поиску фильмов/короткометражек. Реализована авторизация (jwt in cookies), возможность редактировать профиль, добавлять фильмы в избранное и фильтровать поиск по короткометражкам. Сделал хранение последних запросов фильмов и фильтра в localStorage для лучшего UX, защитил основные роуты. Список фильмов берётся из публичного api, для остального написал базовый бэкенд на Express.js',
       technologies: ['React', 'NodeJS', 'MongoDB', 'ExpressJS', 'Webpack'],
       links: ['https://github.com/danchikSlaziet/movies-explorer-app']
     },
     {
-      imagePath: asteriPath,
-      heading: 'Asteri-3D',
-      text: 'Сайт для компании, занимающейся профессиональной 3д-печатью, поставленной на поток.',
-      technologies: ['jQuery', 'Vanilla JS'],
-      links: ['https://asteri-3d.ru/services/3d-%d0%bc%d0%be%d0%b4%d0%b5%d0%bb%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5/']
+      imagePath: coinPath,
+      heading: 'CryptoLost',
+      text: 'Сайт с информацией о top-50 rank криптовалютах. Условно-бесплатный api coinGecko с лимитом по запросам. Сделал пагинацию для списка топ-50 валют, получал данные при помощи axios (до этого работал только с fetch и ajax), типизировал приходящие данные (c coinGecko api), для удобства вынес отдельно запросы к апи и подключил redux-thunk',
+      technologies: ['React', 'Redux', 'TypeScript', 'Sass'],
+      links: ['https://github.com/danchikSlaziet/coin-app','https://danchikslaziet.github.io/coin-app/']
     },
     {
       imagePath: mottexPath,
       heading: 'Mottex Digital',
-      text: 'Сайт для IT-компании по разработке и продвижению цифровых продуктов (постер видео под заголовком - заглушка)',
+      text: 'Сайт для IT-компании по разработке и продвижению цифровых продуктов. Стандартный сайт-визитка, есть несколько форм с отправкой через ajax и валидацией (в том числе валидация прикрепляемого файла), немного оживил сайт анимациями (в том числе AOS) и добавил всплывающую форму при draggable эффекте',
       technologies: ['Vanilla JS', 'jQuery', 'Webpack'],
       links: ['http://accouno4.beget.tech/']
+    },
+    {
+      imagePath: asteriPath,
+      heading: 'Asteri-3D',
+      text: 'Сайт для компании, занимающейся профессиональной 3д-печатью. Проект под wp, сделан многостраничный сайт, реализована форма отправки заказа с валидацией (в т.ч. прикрепляемого файла), переделал поиск по городам, фиксил баги в safari и на android',
+      technologies: ['jQuery', 'Vanilla JS'],
+      links: ['https://asteri-3d.ru/services/3d-%d0%bc%d0%be%d0%b4%d0%b5%d0%bb%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5/']
     },
     {
       imagePath: russianPath,
